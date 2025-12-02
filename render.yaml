@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: roblox-moderacao
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: ROBLOX_API_KEY
+        generateValue: true
+      - key: SECRET_KEY
+        generateValue: true
