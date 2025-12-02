@@ -1,0 +1,204 @@
+2025-12-02 16:57:37,691 - __main__ - INFO - Usuário padrão criado: gui
+2025-12-02 16:57:37,692 - __main__ - INFO - Usuário padrão criado: tavoxx
+2025-12-02 16:57:37,695 - __main__ - INFO - Database inicializado com sucesso
+2025-12-02 16:57:37,695 - __main__ - INFO - Sistema de moderação iniciado
+2025-12-02 16:57:37,747 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-02 16:57:37,747 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-02 16:57:37,750 - werkzeug - INFO -  * Restarting with stat
+2025-12-02 16:57:38,036 - __main__ - INFO - Database inicializado com sucesso
+2025-12-02 16:57:38,037 - __main__ - INFO - Sistema de moderação iniciado
+2025-12-02 16:57:38,061 - werkzeug - WARNING -  * Debugger is active!
+2025-12-02 16:57:38,065 - werkzeug - INFO -  * Debugger PIN: 224-094-009
+2025-12-02 16:59:01,940 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 16:59:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-02 16:59:01,950 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 16:59:01] "GET /login HTTP/1.1" 200 -
+2025-12-02 16:59:02,191 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 16:59:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-02 16:59:19,293 - __main__ - INFO - Login bem-sucedido: tavoxx
+2025-12-02 16:59:19,295 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 16:59:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-02 16:59:19,311 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 16:59:19] "GET / HTTP/1.1" 200 -
+2025-12-02 16:59:27,923 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 16:59:27] "GET /bans HTTP/1.1" 200 -
+2025-12-02 16:59:32,373 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 16:59:32] "GET / HTTP/1.1" 200 -
+2025-12-02 17:00:17,203 - __main__ - INFO - Database inicializado com sucesso
+2025-12-02 17:00:17,203 - __main__ - INFO - Sistema de moderação iniciado
+2025-12-02 17:00:17,246 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-02 17:00:17,246 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-02 17:00:17,248 - werkzeug - INFO -  * Restarting with stat
+2025-12-02 17:00:17,633 - __main__ - INFO - Database inicializado com sucesso
+2025-12-02 17:00:17,634 - __main__ - INFO - Sistema de moderação iniciado
+2025-12-02 17:00:17,660 - werkzeug - WARNING -  * Debugger is active!
+2025-12-02 17:00:17,663 - werkzeug - INFO -  * Debugger PIN: 224-094-009
+2025-12-02 17:00:23,691 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:00:23] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-02 17:00:23,699 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:00:23] "GET /login HTTP/1.1" 200 -
+2025-12-02 17:00:32,010 - __main__ - INFO - Login bem-sucedido: tavoxx
+2025-12-02 17:00:32,012 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:00:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-02 17:00:32,328 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:00:32] "GET / HTTP/1.1" 200 -
+2025-12-02 17:00:39,379 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:00:39] "GET / HTTP/1.1" 200 -
+2025-12-02 17:00:41,401 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:00:41] "GET / HTTP/1.1" 200 -
+2025-12-02 17:01:11,422 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:01:11] "GET / HTTP/1.1" 200 -
+2025-12-02 17:01:41,447 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:01:41] "GET / HTTP/1.1" 200 -
+2025-12-02 17:02:11,472 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:02:11] "GET / HTTP/1.1" 200 -
+2025-12-02 17:02:41,497 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:02:41] "GET / HTTP/1.1" 200 -
+2025-12-02 17:03:11,520 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:03:11] "GET / HTTP/1.1" 200 -
+2025-12-02 17:03:41,546 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:03:41] "GET / HTTP/1.1" 200 -
+2025-12-02 17:04:11,567 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:04:11] "GET / HTTP/1.1" 200 -
+2025-12-02 17:04:41,609 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:04:41] "GET / HTTP/1.1" 200 -
+2025-12-02 17:05:11,636 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:05:11] "GET / HTTP/1.1" 200 -
+2025-12-02 17:05:41,662 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:05:41] "GET / HTTP/1.1" 200 -
+2025-12-02 17:06:43,885 - __main__ - INFO - Database inicializado com sucesso
+2025-12-02 17:06:43,886 - __main__ - INFO - Sistema de moderação iniciado
+2025-12-02 17:06:43,922 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-02 17:06:43,923 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-12-02 17:06:43,924 - werkzeug - INFO -  * Restarting with stat
+2025-12-02 17:06:44,270 - __main__ - INFO - Database inicializado com sucesso
+2025-12-02 17:06:44,270 - __main__ - INFO - Sistema de moderação iniciado
+2025-12-02 17:06:44,304 - werkzeug - WARNING -  * Debugger is active!
+2025-12-02 17:06:44,307 - werkzeug - INFO -  * Debugger PIN: 224-094-009
+2025-12-02 17:06:44,428 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:06:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-02 17:06:44,436 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:06:44] "GET /login HTTP/1.1" 200 -
+2025-12-02 17:06:58,506 - __main__ - INFO - Login bem-sucedido: tavoxx
+2025-12-02 17:06:58,508 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:06:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-12-02 17:06:58,821 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:06:58] "GET / HTTP/1.1" 200 -
+2025-12-02 17:07:29,147 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:07:29] "GET / HTTP/1.1" 200 -
+2025-12-02 17:07:59,168 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:07:59] "GET / HTTP/1.1" 200 -
+2025-12-02 17:08:29,192 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:08:29] "GET / HTTP/1.1" 200 -
+2025-12-02 17:08:59,398 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:08:59] "GET / HTTP/1.1" 200 -
+2025-12-02 17:09:30,694 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:09:30] "GET / HTTP/1.1" 200 -
+2025-12-02 17:10:01,396 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:10:01] "GET / HTTP/1.1" 200 -
+2025-12-02 17:10:32,700 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:10:32] "GET / HTTP/1.1" 200 -
+2025-12-02 17:11:03,404 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:11:03] "GET / HTTP/1.1" 200 -
+2025-12-02 17:11:34,712 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:11:34] "GET / HTTP/1.1" 200 -
+2025-12-02 17:12:05,391 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:12:05] "GET / HTTP/1.1" 200 -
+2025-12-02 17:12:36,683 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:12:36] "GET / HTTP/1.1" 200 -
+2025-12-02 17:13:07,681 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:13:07] "GET / HTTP/1.1" 200 -
+2025-12-02 17:13:38,387 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:13:38] "GET / HTTP/1.1" 200 -
+2025-12-02 17:14:09,691 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:14:09] "GET / HTTP/1.1" 200 -
+2025-12-02 17:14:40,390 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:14:40] "GET / HTTP/1.1" 200 -
+2025-12-02 17:15:11,785 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:15:11] "GET / HTTP/1.1" 200 -
+2025-12-02 17:15:41,895 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:15:41] "GET / HTTP/1.1" 200 -
+2025-12-02 17:16:12,476 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:16:12] "GET / HTTP/1.1" 200 -
+2025-12-02 17:16:42,500 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:16:42] "GET / HTTP/1.1" 200 -
+2025-12-02 17:17:12,594 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:17:12] "GET / HTTP/1.1" 200 -
+2025-12-02 17:17:42,694 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:17:42] "GET / HTTP/1.1" 200 -
+2025-12-02 17:17:58,582 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:17:58,583 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:17:58] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:18:01,376 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:18:01,377 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:01] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:18:03,981 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:18:03,981 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:03] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:18:04,180 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:18:04,180 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:04] "[31m[1mGET /api/moderacao/checkBan/9154489504 HTTP/1.1[0m" 401 -
+2025-12-02 17:18:12,786 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:12] "GET / HTTP/1.1" 200 -
+2025-12-02 17:18:14,684 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:18:14,685 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:14] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:18:17,301 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:18:17,301 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:17] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:18:19,983 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:18:19,984 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:19] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:18:30,723 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:18:30,724 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:30] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:18:33,283 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:18:33,284 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:33] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:18:35,850 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:18:35,851 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:35] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:18:42,307 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:42] "GET / HTTP/1.1" 200 -
+2025-12-02 17:18:44,804 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:44] "GET / HTTP/1.1" 200 -
+2025-12-02 17:18:46,424 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:18:46,426 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:46] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:18:48,999 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:18:49,000 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:49] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:18:51,569 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:18:51,570 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:18:51] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:19:02,179 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:19:02,180 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:02] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:19:04,784 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:19:04,785 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:04] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:19:07,380 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:19:07,381 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:07] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:19:14,900 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:14] "GET / HTTP/1.1" 200 -
+2025-12-02 17:19:17,978 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:19:17,979 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:17] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:19:20,578 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:19:20,580 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:20] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:19:23,280 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:19:23,281 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:23] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:19:33,878 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:19:33,879 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:33] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:19:36,474 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:19:36,475 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:36] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:19:39,178 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:19:39,178 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:39] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:19:43,109 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:43] "[32mGET / HTTP/1.1[0m" 302 -
+2025-12-02 17:19:43,477 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:43] "GET /login HTTP/1.1" 200 -
+2025-12-02 17:19:44,075 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-02 17:19:49,778 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:19:49,779 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:49] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:19:52,399 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:19:52,471 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:52] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:19:55,077 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:19:55,078 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:19:55] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:20:05,671 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:20:05,672 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:05] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:20:08,245 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:20:08,246 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:08] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:20:10,818 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:20:10,819 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:10] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:20:21,222 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:21] "[33mGET /api/moderacao HTTP/1.1[0m" 404 -
+2025-12-02 17:20:21,550 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:20:21,550 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:21] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:20:24,109 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:20:24,109 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:24] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:20:26,680 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:20:26,681 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:26] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:20:37,350 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:20:37,351 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:37] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:20:40,023 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:20:40,024 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:40] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:20:42,646 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:20:42,647 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:42] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:20:52,983 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:52] "[31m[1mGET /api/moderacao/updatePlayers HTTP/1.1[0m" 405 -
+2025-12-02 17:20:53,276 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:20:53,277 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:53] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:20:55,976 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:20:55,977 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:55] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:20:58,600 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:20:58,601 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:20:58] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:21:09,203 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:21:09,204 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:21:09] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:21:12,204 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:21:12,205 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:21:12] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:21:15,478 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:21:15,478 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:21:15] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:21:26,079 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:21:26,080 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:21:26] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:21:28,949 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:21:28,950 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:21:28] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:21:31,688 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:21:31,688 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:21:31] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:21:42,378 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:21:42,379 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:21:42] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:21:45,774 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:21:45,776 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:21:45] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:21:48,871 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:21:48,875 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:21:48] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:21:59,478 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:21:59,479 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:21:59] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:22:02,177 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:22:02,179 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:22:02] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:22:04,786 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:22:04,788 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:22:04] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:22:47,697 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:22:47,698 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:22:47] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:22:58,878 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:22:58,879 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:22:58] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:23:01,646 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:23:01,647 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:23:01] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:23:05,150 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:23:05,151 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:23:05] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:23:15,879 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:23:15,881 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:23:15] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:23:18,673 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:23:18,674 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:23:18] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -
+2025-12-02 17:23:21,381 - __main__ - WARNING - Tentativa de acesso não autorizado à API de 127.0.0.1
+2025-12-02 17:23:21,383 - werkzeug - INFO - 127.0.0.1 - - [02/Dec/2025 17:23:21] "[31m[1mPOST /api/moderacao/updatePlayers HTTP/1.1[0m" 401 -

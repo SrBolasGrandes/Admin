@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Bans - Moderação</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            font-weight: 600;
+        }
+        
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .user-badge {
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn-back {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn-back:hover {
+            background: white;
+            color: #e74c3c;
+        }
+        
+        .btn-unban {
+            background: #27ae60;
+            color: white;
+            padding: 8px 16px;
+            font-size: 13px;
+        }
+        
+        .btn-unban:hover {
+            background: #229954;
+            transform: translateY(-2px);
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .stat-card h3 {
+            font-size: 14px;
+            font-weight: 400;
+            opacity: 0.9;
+            margin-bottom: 10px;
+        }
+        
+        .stat-card p {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        
+        .section {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+        }
+        
+        .section h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 22px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .bans-table {
+            width: 100%;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .bans-table table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .bans-table th {
+            background: #e74c3c;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .bans-table td {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .bans-table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        .ban-reason {
+            max-width: 300px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+        
+        .empty-state svg {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+            opacity: 0.3;
+        }
+        
+        .empty-state h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #666;
+        }
+        
+        .empty-state p {
+            font-size: 14px;
+        }
+        
+        .search-box {
+            margin-bottom: 20px;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 12px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .search-box input:focus {
+            outline: none;
+            border-color: #e74c3c;
+            box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+            
+            .bans-table {
+                overflow-x: auto;
+            }
+            
+            .ban-reason {
+                max-width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚫 Gerenciar Bans</h1>
+            <div class="user-info">
+                <div class="user-badge">👤 {{ username }}</div>
+                <a href="/" class="btn btn-back">← Voltar ao Dashboard</a>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="stats">
+                <div class="stat-card">
+                    <h3>Total de Bans</h3>
+                    <p>{{ bans|length }}</p>
+                </div>
+                <div class="stat-card" style="background: linear-gradient(135deg, #27ae60 0%, #229954 100%);">
+                    <h3>Sistema</h3>
+                    <p>🟢 Ativo</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📋 Usuários Banidos</h2>
+                
+                {% if bans %}
+                    <div class="search-box">
+                        <input 
+                            type="text" 
+                            id="searchInput" 
+                            placeholder="🔍 Buscar por UserID ou nome..."
+                            onkeyup="filterTable()"
+                        >
+                    </div>
+                    
+                    <div class="bans-table">
+                        <table id="bansTable">
+                            <thead>
+                                <tr>
+                                    <th>UserID</th>
+                                    <th>Nome de Usuário</th>
+                                    <th>Motivo</th>
+                                    <th>Banido Por</th>
+                                    <th>Data/Hora</th>
+                                    <th>Ação</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for ban in bans %}
+                                <tr>
+                                    <td><span class="badge">{{ ban[0] }}</span></td>
+                                    <td><strong>{{ ban[1] or 'N/A' }}</strong></td>
+                                    <td><div class="ban-reason" title="{{ ban[2] }}">{{ ban[2] or 'Sem motivo especificado' }}</div></td>
+                                    <td>{{ ban[3] }}</td>
+                                    <td>{{ ban[4] }}</td>
+                                    <td>
+                                        <button 
+                                            class="btn btn-unban" 
+                                            onclick="unbanUser({{ ban[0] }}, '{{ ban[1] or ban[0] }}')"
+                                        >
+                                            ✓ Remover Ban
+                                        </button>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                {% else %}
+                    <div class="empty-state">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="10" stroke-width="2"/>
+                            <path d="M12 6v6l4 2" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <h3>🎉 Nenhum ban ativo</h3>
+                        <p>Não há usuários banidos no momento.</p>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function unbanUser(userId, username) {
+            if (!confirm(`Tem certeza que deseja REMOVER o ban de ${username}?\n\nO jogador poderá entrar no servidor novamente.`)) {
+                return;
+            }
+            
+            fetch('/api/moderacao/unban', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    user_id: userId
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.status === 'success') {
+                    alert(`✅ Ban removido com sucesso de ${username}!`);
+                    location.reload();
+                } else {
+                    alert(`❌ Erro: ${data.message}`);
+                }
+            })
+            .catch(error => {
+                alert(`❌ Erro na requisição: ${error}`);
+            });
+        }
+        
+        function filterTable() {
+            const input = document.getElementById('searchInput');
+            const filter = input.value.toUpperCase();
+            const table = document.getElementById('bansTable');
+            const tr = table.getElementsByTagName('tr');
+            
+            for (let i = 1; i < tr.length; i++) {
+                const tdUserId = tr[i].getElementsByTagName('td')[0];
+                const tdUsername = tr[i].getElementsByTagName('td')[1];
+                
+                if (tdUserId || tdUsername) {
+                    const userIdText = tdUserId.textContent || tdUserId.innerText;
+                    const usernameText = tdUsername.textContent || tdUsername.innerText;
+                    
+                    if (userIdText.toUpperCase().indexOf(filter) > -1 || 
+                        usernameText.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = '';
+                    } else {
+                        tr[i].style.display = 'none';
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
